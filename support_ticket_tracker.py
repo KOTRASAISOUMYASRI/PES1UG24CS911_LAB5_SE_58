@@ -7,7 +7,8 @@ import logging
 TICKETS = {}
 
 
-def create_ticket(# pylint: disable=too-many-arguments,too-many-positional-arguments
+def create_ticket(
+    # pylint: disable=too-many-arguments,too-many-positional-arguments
     title,
     description,
     reporter,
